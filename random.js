@@ -59,6 +59,7 @@ function createThirdScene() {
 makeRect(0,0,200,300,"white",1)
 makeRect(0,0,200,300,"orange", .5)
  makeRect(0,80,200,50,"green",1)
+ makeRect(0,90,200,50,"yellow",1)
  makeRect(110,65,20,15,"brown",1)
  makeLine(120, 65, 120, 20, "gray", 4, 1)
  makeCircle(120,16,5,"yellow")

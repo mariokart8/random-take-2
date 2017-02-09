@@ -1,8 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma");
+
 #button-container {
     
     text-align: center;
 }
 
 h1 {
-    text-align: center;
+    font-family: Baloo Tamma; 
+}
+
+ body {
+  background: url('http://themushroomkingdom.net/images/nsmbwii/nsmbwii_items-white_1920.jpg');
+    background-height: 100%;
 }
