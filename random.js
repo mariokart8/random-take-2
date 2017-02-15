@@ -15,15 +15,21 @@ function createFirstScene() {
   makeRect(85,30,15,15,"brown",1)
   makeRect(0,90,200,50,"yellow",1)
   makeRect(160,65,120,30,"yellow",1)
+  var random= Math.random()
+ if(random<0.43){
   makeCircle(20,10,5,"white",1)
   makeCircle(24,10,6,"white",1)
   makeCircle(28,10,5,"white",1)
+ }
    makeCircle(120,30,5,"white",1)
   makeCircle(124,30,6,"white",1)
   makeCircle(128,30,5,"white",1)
+  var random= Math.random()
+ if(random<0.23){
    makeCircle(140,10,5,"white",1)
   makeCircle(144,10,6,"white",1)
   makeCircle(148,10,5,"white",1)
+ }
   makeImage("http://www.mariomayhem.com/bowsers_blog/wp-content/uploads/2014/06/Retro-Mushroom-Super-3-icon.png",67,18,20,12,10)
   makeImage("https://i1.wp.com/jay.mobile9.com/download/media/41/supermario_knocmls3.gif", 30,45,35,35,1)
   makeImage("http://rs134.pbsrc.com/albums/q110/anghellicsuicde/goomba.gif~c200",95,65,20,15,10)
@@ -63,15 +69,24 @@ makeRect(0,0,200,300,"orange", .5)
  makeRect(110,65,20,15,"brown",1)
  makeLine(120, 65, 120, 20, "gray", 4, 1)
  makeCircle(120,16,5,"yellow")
+ var random= Math.random()
+ if(random<0.73){
  makeCircle(20,10,5,"orange",1)
   makeCircle(24,10,6,"orange",1)
   makeCircle(28,10,5,"orange",1)
+ }
+  var random= Math.random()
+ if(random<0.63){
    makeCircle(90,30,5,"orange",1)
   makeCircle(94,30,6,"orange",1)
   makeCircle(98,30,5,"orange",1)
+ }
+  var random= Math.random()
+ if(random<0.30){
    makeCircle(140,10,5,"orange",1)
   makeCircle(144,10,6,"orange",1)
   makeCircle(148,10,5,"orange",1)
+ }
   makeCircle(70,50,10,"yellow",1)
  makeImage("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mario_emblem.svg/2000px-Mario_emblem.svg.png",122,21,20,20)
  makeImage("http://pixelartmaker.com/art/0034263c98e8408.png",160,51,30,30,32)
